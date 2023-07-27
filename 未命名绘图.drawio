@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T01:46:19.207Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="s2WLtZWm1NE9XiVhb-J9" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T01:49:07.746Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TDiqmFUE0KEA9nRwXaIy" version="21.6.3" type="github">
   <diagram name="第 1 页" id="g1MfpLvZXn7BIR15hjBB">
     <mxGraphModel dx="954" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
         <mxCell id="HOH3NiYl3CkEIhW1uyF1-15" value="初始化的时候会启动一个服务端socket" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="414" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HOH3NiYl3CkEIhW1uyF1-18" value="调试器接收到信息，&lt;br&gt;调用bundle" style="rhombus;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="HOH3NiYl3CkEIhW1uyF1-18" value="调试器接收到信息，&lt;br&gt;调用bundle，完成更新" style="rhombus;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="379.5" y="802.5" width="189" height="95" as="geometry" />
         </mxCell>
       </root>
