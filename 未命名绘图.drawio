@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T01:27:24.984Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="XhwjMH959Pyz3z_XtLgJ" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T01:46:19.207Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="s2WLtZWm1NE9XiVhb-J9" version="21.6.3" type="github">
   <diagram name="第 1 页" id="g1MfpLvZXn7BIR15hjBB">
     <mxGraphModel dx="954" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,20 +16,23 @@
         <mxCell id="HOH3NiYl3CkEIhW1uyF1-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HOH3NiYl3CkEIhW1uyF1-1" target="HOH3NiYl3CkEIhW1uyF1-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HOH3NiYl3CkEIhW1uyF1-1" value="1，挂载接口 bundle poststdbg debug&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2，开启socket服务&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3，生成二维码" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="HOH3NiYl3CkEIhW1uyF1-1" value="1，挂载接口 bundle poststdbg debug&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2，开启socket服务&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3，生成二维码&lt;br&gt;4，use 中间件记录手机信息，生成本地文件存储在脚手架的文件" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="90" y="330" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="HOH3NiYl3CkEIhW1uyF1-3" value="pc端" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="120" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HOH3NiYl3CkEIhW1uyF1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HOH3NiYl3CkEIhW1uyF1-5" target="HOH3NiYl3CkEIhW1uyF1-6">
+        <mxCell id="HOH3NiYl3CkEIhW1uyF1-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HOH3NiYl3CkEIhW1uyF1-5" target="HOH3NiYl3CkEIhW1uyF1-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HOH3NiYl3CkEIhW1uyF1-5" value="手机端-调试器" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="414" y="350" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="HOH3NiYl3CkEIhW1uyF1-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HOH3NiYl3CkEIhW1uyF1-6" target="HOH3NiYl3CkEIhW1uyF1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HOH3NiYl3CkEIhW1uyF1-6" value="调试器调用bundle获取pc端打包的包体文件" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="421" y="470" width="106" height="80" as="geometry" />
+          <mxGeometry x="421" y="610" width="106" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HOH3NiYl3CkEIhW1uyF1-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HOH3NiYl3CkEIhW1uyF1-1" target="HOH3NiYl3CkEIhW1uyF1-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -49,8 +52,20 @@
         <mxCell id="HOH3NiYl3CkEIhW1uyF1-11" value="脚手架触发notify" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="120" y="670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HOH3NiYl3CkEIhW1uyF1-13" value="发送http请求ip：39517/update" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="120" y="810" width="120" height="60" as="geometry" />
+        <mxCell id="HOH3NiYl3CkEIhW1uyF1-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HOH3NiYl3CkEIhW1uyF1-13" target="HOH3NiYl3CkEIhW1uyF1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HOH3NiYl3CkEIhW1uyF1-13" value="读取存取的文件 手机的IP地址&lt;br&gt;发送http请求ip：39517/update" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="105" y="810" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HOH3NiYl3CkEIhW1uyF1-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HOH3NiYl3CkEIhW1uyF1-15" target="HOH3NiYl3CkEIhW1uyF1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HOH3NiYl3CkEIhW1uyF1-15" value="初始化的时候会启动一个服务端socket" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="414" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HOH3NiYl3CkEIhW1uyF1-18" value="调试器接收到信息，&lt;br&gt;调用bundle" style="rhombus;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="379.5" y="802.5" width="189" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
